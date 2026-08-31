@@ -1,0 +1,8 @@
+name: TPSAdjuster
+version: 1.0
+main: com.example.tpsadjuster.TPSAdjuster
+api-version: 1.21
+commands:
+  tpsadjust:
+    description: Manage TPS adjustments
+    usage: /tpsadjust [reload|reset|status|villager ai <enable|disable>]
